@@ -17,7 +17,7 @@ Details on how the pre-processing and blob detection
 work are skipped here, so see the previous example
 if you want to understand what's happening there.
 For more on getting webcam input, see the Image 
-Processing code examples.
+Processing code examples...
 
 */
 
@@ -46,6 +46,8 @@ void setup() {
   // text settings (for showing the # of blobs)
   textSize(20);
   textAlign(LEFT, BOTTOM);
+  
+  println("ready!");
 }
 
 
